@@ -35,10 +35,10 @@ nav a:hover {
   background: #ff69b4;
 }
 
-/* ================= BANNER ================= */
+/* BANNER SECTION */
 .banner {
   height: 100vh; /* full screen height */
-  background: url('images/background.jpg') center/cover no-repeat;
+  background: url('images/banner.jpg') center center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,25 +47,25 @@ nav a:hover {
 
 .welcome-text {
   text-align: center;
-  color: #ff66cc; /* Pink text */
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black behind text */
-  padding: 30px;
-  border-radius: 12px;
+  color: #ff66cc;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent overlay behind text */
+  padding: 50px; /* bigger padding for more impact */
+  border-radius: 15px;
 }
 
 .welcome-text h1 {
-  font-size: 3rem;
-  margin: 0 0 10px 0;
-  text-shadow: 0 0 10px #ff66cc, 0 0 20px #ffb3ff; /* Neon glow effect */
+  font-size: 5rem; /* bigger BLACKPINK text */
+  margin: 0 0 15px 0;
+  text-shadow: 0 0 15px #ff66cc, 0 0 30px #ffb3ff; /* neon glow */
 }
 
 .welcome-text h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 0 0 10px 0;
 }
 
 .welcome-text p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 0;
 }
 
